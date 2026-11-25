@@ -1,8 +1,10 @@
-# Butim user guide
+# Butim user guide — Windows sticky notes, calculations, and settings
 
 [Overview](../../README.md) · [한국어](../ko/user-guide.md) · [Technical reference](technical-reference.md)
 
 Based on Butim **v1.9.2**. All screenshots on this page show the English interface.
+
+Butim (붙임쪽지) is a Windows 10/11 x64 desktop sticky notes app with inline arithmetic and named variables. This guide explains how to create and organize notes, calculate in a note, exclude dates and phone numbers from calculations, export and import `.butim` files, change languages and shortcuts, and locate locally saved data. Butim is free for personal and business use under its [proprietary license](../../LICENSE.txt).
 
 ## Contents
 

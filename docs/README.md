@@ -2,6 +2,27 @@
 
 [English overview](../README.md) · [한국어 소개](../README.ko.md)
 
+## Find information about Butim / 주제별 문서 찾기
+
+Butim (붙임쪽지) is a Windows desktop sticky notes app with inline calculations. These documents describe v1.9.2. Use the product overview for supported platforms and usage terms, the user guide for behavior, and the technical reference for implementation. Check [Releases](https://github.com/funk80/Butim/releases) for downloadable versions.
+
+붙임쪽지(Butim)는 메모 안에서 수식을 계산하는 Windows 바탕화면 메모 앱입니다. 문서 기준은 v1.9.2입니다. 제품 소개는 지원 환경과 사용 조건, 사용 설명서는 기능과 조작, 기술 참고는 구현 방식을 설명합니다. 다운로드 버전은 Releases에서 확인합니다.
+
+| Topic / 주제 | English | 한국어 |
+| --- | --- | --- |
+| Product, platform, free business use / 제품·환경·기업 무료 사용 | [Product facts](../README.md#product-facts) | [제품 정보](../README.ko.md#제품-정보) |
+| Common questions / 자주 묻는 질문 | [FAQ](../README.md#frequently-asked-questions) | [자주 묻는 질문](../README.ko.md#자주-묻는-질문) |
+| Installation / 설치 | [Download and install](../README.md#download-and-install) | [다운로드 및 설치](../README.ko.md#다운로드-및-설치) |
+| Arithmetic and variables / 수식·변수 | [Calculations](en/user-guide.md#calculations) | [계산](ko/user-guide.md#계산) |
+| Exclusion patterns / 계산 제외 패턴 | [Formats not to calculate](en/user-guide.md#formats-not-to-calculate) | [계산하지 않을 형식](ko/user-guide.md#계산하지-않을-형식) |
+| Note search and organization / 메모 검색·정리 | [Manage notes](en/user-guide.md#manage-notes) | [붙임쪽지 관리](ko/user-guide.md#붙임쪽지-관리) |
+| Export/import / 파일 내보내기·가져오기 | [Peel off and export](en/user-guide.md#peel-off-and-export) | [떼기와 내보내기](ko/user-guide.md#떼기와-내보내기) |
+| Language and shortcuts / 언어·단축키 | [Settings](en/user-guide.md#settings) | [설정](ko/user-guide.md#설정) |
+| Local storage / 로컬 저장 | [Data and installation](en/user-guide.md#data-and-installation) | [데이터와 설치](ko/user-guide.md#데이터와-설치) |
+| Troubleshooting / 문제 해결 | [Troubleshooting](en/user-guide.md#troubleshooting) | [문제 해결](ko/user-guide.md#문제-해결) |
+| Architecture and JSON / 구조·JSON 형식 | [Technical reference](en/technical-reference.md) | [기술 참고 문서](ko/technical-reference.md) |
+| Full usage terms / 전체 사용 조건 | [License (Korean)](../LICENSE.txt) | [사용권 약관](../LICENSE.txt) |
+
 ## Current layout / 현재 구성
 
 ```text
