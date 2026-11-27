@@ -1,6 +1,6 @@
 # Butim user guide — Windows sticky notes, calculations, and settings
 
-[Overview](../../README.md) · [한국어](../ko/user-guide.md) · [Technical reference](technical-reference.md)
+[Overview](../../README.md) · [한국어](../ko/user-guide.md) · [Data and compatibility](technical-reference.md)
 
 Based on Butim **v1.9.2**. All screenshots on this page show the English interface.
 
@@ -63,7 +63,7 @@ Eight colors are available: yellow, green, blue, pink, purple, orange, gray, and
 
 Drag the title bar to move and the window edge to resize. Notes snap when they come within 10 DIP of another note or the work-area boundary (the screen excluding the taskbar). At 100% scaling, 10 DIP is 10 pixels. Hold `Alt` while dragging to bypass snapping.
 
-Resizing uses 10-DIP increments. Minimum height is 100 DIP. Minimum width is `110 + visible icon count × 27`: 299 DIP with all seven action icons, or 110 with none. Changing visible icons adjusts notes that are at or below the new minimum width. Notes outside the available screen area are brought back on screen at startup.
+Showing fewer title-bar icons lets you make a note narrower. Changing visible icons may adjust a note's minimum width. Notes outside the available screen area are brought back on screen at startup.
 
 ## Peel off and export
 
@@ -109,7 +109,7 @@ total = teachers + 1
 ### Rules and feedback
 
 - Operators: `+ - * / ^ ( )`, unary minus, and postfix `%`. `20%` means `0.2`.
-- Numbers use decimal arithmetic; `0.1 + 0.2` evaluates to `0.3`.
+- `0.1 + 0.2` evaluates to `0.3`.
 - Numeric grouping commas must separate groups of three digits, as in `1,000`. Results use thousands separators and at most ten fractional digits.
 - Names are case-sensitive. Letters A–Z/a–z, Hangul syllables, digits, and `_` are allowed, but a name cannot begin with a digit.
 - A redefinition takes effect on following lines. A standalone expression with an undefined name remains text. A definition expression with an undefined name displays `?`; a plain label assignment such as `title = Minutes` remains text.
@@ -209,7 +209,7 @@ Help is available from the note menu, tray menu, the management window's `?`, or
 | `%APPDATA%\Butim\trash\<id>.json` | Trashed notes |
 | `%APPDATA%\Butim\logs\butim.log` | Error/export log; rotated to `butim.old.log` above 1 MB |
 
-The installer registers `.butim` files for the current user. Uninstalling removes the app and file association, and removes the startup entry only if it points to that installation. **Note data is retained**, so reinstalling lets you continue with it. Exported `.butim` files are separate from the app's live storage. See the [technical reference](technical-reference.md) for JSON fields and migration behavior.
+The installer registers `.butim` files for the current user. Uninstalling removes the app and file association, and removes the startup entry only if it points to that installation. **Note data is retained**, so reinstalling lets you continue with it. Exported `.butim` files are separate from the app's live storage. See [data and compatibility](technical-reference.md) for file handling and settings after an update.
 
 ## Troubleshooting
 
@@ -220,6 +220,6 @@ The installer registers `.butim` files for the current user. Uninstalling remove
 | A note is missing | For a hidden note, use Show in management; for one behind other windows, use Bring all to front. Off-screen notes are repositioned at startup. |
 | Peel off made a note disappear | Its default action exports to the desktop. Double-click the `.butim` file, or change the peel-off action in General settings. |
 | A locked note can be moved or deleted | Lock protects text editing only; this behavior is intentional. |
-| Need to migrate StickyPad notes | The documented development tool `tools/Convert-Spn.ps1` converts `.spn` to `.butim`. That tool is not included in this documentation-only checkout. If supplied separately, convert and double-click the result. |
+| Need to import notes from another app | Butim's documented import format is `.butim`. This repository does not provide a StickyPad `.spn` conversion tool; do not assume other note formats can be imported directly. |
 
-For the usage terms, see [LICENSE.txt](../../LICENSE.txt). For technical/build details, see the [technical reference](technical-reference.md).
+If the problem remains, use [Bug Report](https://github.com/funk80/Butim/issues/new/choose) with non-sensitive example data. See [SECURITY.md](../../SECURITY.md) for suspected vulnerabilities and [LICENSE.txt](../../LICENSE.txt) for usage terms.

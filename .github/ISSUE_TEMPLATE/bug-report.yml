@@ -1,0 +1,69 @@
+name: Bug Report
+description: Report a problem with Butim. English or Korean welcome.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe one problem per report. English and Korean are both welcome. 한국어로 작성하셔도 됩니다.
+
+        **This issue will be public.** Use sample data. Do not include personal note contents, passwords, API keys, authentication details, or confidential company information. Review screenshots and logs for names, file paths, and private content before attaching them.
+
+        **공개 Issue입니다.** 개인정보가 담긴 메모, 비밀번호·API 키·인증 정보, 사내 기밀 자료를 첨부하지 마세요. 캡처와 로그의 개인정보도 제거해 주세요.
+
+        Suspected security vulnerability? Do not disclose details here. Read the [security reporting policy](https://github.com/funk80/Butim/security/policy) first.
+  - type: input
+    id: butim-version
+    attributes:
+      label: Butim version
+      description: Copy the version from Settings → About. If the app cannot start, use the release you downloaded or say unknown.
+      placeholder: Version shown in the app
+    validations:
+      required: true
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      description: Include Windows 10 or 11 and, if known, the version/build from Windows Settings → System → About. Do not include a device name or product ID.
+      placeholder: "Example: Windows 11, 24H2"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem description
+      description: Describe the problem and how it affects your use of Butim.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Use non-sensitive example notes. If the problem is intermittent or you cannot reproduce it, describe what happened before it occurred.
+      placeholder: |
+        1. Open Butim...
+        2. Create a note containing sample text...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect Butim to do?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead? Include any error message with private information removed.
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots or logs (optional)
+      description: Attach only relevant, sanitized screenshots or log excerpts. Do not upload your note database, exported personal notes, or credentials.
+    validations:
+      required: false

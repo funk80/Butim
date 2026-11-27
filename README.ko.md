@@ -2,7 +2,7 @@
 
 **메모를 적으며 바로 계산하는 바탕화면 붙임쪽지.**
 
-[English](README.md) · [다운로드](https://github.com/funk80/Butim/releases/latest) · [사용 설명서](docs/ko/user-guide.md) · [기술 참고 문서](docs/ko/technical-reference.md)
+[English](README.md) · [다운로드](https://github.com/funk80/Butim/releases/latest) · [사용 설명서](docs/ko/user-guide.md) · [오류 신고·기능 제안](https://github.com/funk80/Butim/issues/new/choose)
 
 **붙임쪽지(Butim)는 계산기를 내장한 무료 Windows 바탕화면 메모 앱입니다.** 같은 메모 안에 글, 이름을 붙인 변수, 수식을 입력하면 줄 끝에 계산 결과가 자동으로 표시됩니다. Windows 10/11 x64, 한국어·영어 화면과 도움말, 로컬 메모 저장, `.butim` 파일 내보내기·가져오기를 지원합니다. 개인과 기업 모두 자체 사용권 약관에 따라 무료로 사용할 수 있으며, 소스 코드는 현재 공개하지 않습니다.
 
@@ -127,9 +127,13 @@
 설명은 **v1.9.2** 기준입니다. 다운로드할 버전은 릴리스 페이지에서 확인하세요.
 
 - [사용 설명서](docs/ko/user-guide.md): 창 조작, 계산 규칙, 제외 패턴, 관리, 설정, 데이터, 문제 해결.
-- [기술 참고 문서](docs/ko/technical-reference.md): 아키텍처, 저장 형식, 구현 방식, 빌드 요구사항.
-- [문서 구성과 이미지 출처](docs/README.md): 언어별 문서와 향후 소스 코드의 배치 기준.
+- [데이터와 호환성](docs/ko/technical-reference.md): 설치 요구사항, 메모 파일, 업데이트 후 설정.
+- [문서 구성과 이미지 출처](docs/README.md): 언어별 문서와 캡처 출처.
 - [English overview](README.md) · [English user guide](docs/en/user-guide.md)
+
+## 오류 신고·기능 제안·보안 신고
+
+[Bug Report 또는 Feature Request](https://github.com/funk80/Butim/issues/new/choose)에서 오류와 개선 의견을 남겨 주세요. 한국어와 영어 모두 가능합니다. 공개 Issue와 첨부파일에는 개인 메모, 인증 정보, 사내 기밀 자료를 포함하지 마세요. 보안 취약점이 의심되면 세부 내용을 공개하지 말고 [SECURITY.md](SECURITY.md)의 안내를 따라 주세요.
 
 ## 라이선스
 

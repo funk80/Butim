@@ -1,0 +1,48 @@
+name: Feature Request
+description: Suggest an improvement to Butim. English or Korean welcome.
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please suggest one improvement per request. English and Korean are both welcome. 한국어로 작성하셔도 됩니다.
+        Search existing issues first and link a related request if you find one.
+
+        This issue is public. Use fictional examples; do not include personal notes, credentials, or confidential company information. 공개 Issue이므로 개인정보, 인증 정보, 사내 기밀 자료를 포함하지 마세요.
+
+        For suspected vulnerabilities, read the [security reporting policy](https://github.com/funk80/Butim/security/policy) instead of posting details here.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed feature
+      description: What would you like Butim to do?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the difficulty or limitation you encounter today.
+    validations:
+      required: true
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Usage scenario
+      description: Give a concrete example of when and how you would use this feature.
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Expected benefit
+      description: Explain who would benefit and what would become easier.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or references (optional)
+      description: Mention workarounds you have tried or public references. Do not link private company documents.
+    validations:
+      required: false

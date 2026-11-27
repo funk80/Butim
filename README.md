@@ -2,7 +2,7 @@
 
 **Sticky notes that calculate as you write.**
 
-[한국어](README.ko.md) · [Download](https://github.com/funk80/Butim/releases/latest) · [User guide](docs/en/user-guide.md) · [Technical reference](docs/en/technical-reference.md)
+[한국어](README.ko.md) · [Download](https://github.com/funk80/Butim/releases/latest) · [User guide](docs/en/user-guide.md) · [Report a bug or suggest a feature](https://github.com/funk80/Butim/issues/new/choose)
 
 **Butim (붙임쪽지) is a free Windows desktop sticky notes app with a built-in calculator.** Users can write text, define named variables, and enter arithmetic expressions in the same note; calculation results appear automatically at the end of each line. Butim supports Windows 10/11 x64, English and Korean interfaces, local note storage, and `.butim` file export and import. Individuals and businesses may use it free of charge under its proprietary license; the source code is not currently published.
 
@@ -127,9 +127,13 @@ Download `Butim_Setup.exe` from the Assets section of the [latest GitHub release
 Documentation describes **v1.9.2**. The release page identifies the downloadable version.
 
 - [User guide](docs/en/user-guide.md): note controls, calculation rules, exclusions, management, settings, data, and troubleshooting.
-- [Technical reference](docs/en/technical-reference.md): architecture, storage formats, implementation, and build requirements.
-- [Documentation layout and image sources](docs/README.md): language organization and future source-code placement.
+- [Data and compatibility](docs/en/technical-reference.md): installation requirements, note files, and settings after an update.
+- [Documentation layout and image sources](docs/README.md): language organization and screenshot sources.
 - [한국어 설명](README.ko.md) · [한국어 사용 설명서](docs/ko/user-guide.md)
+
+## Feedback and security reports
+
+Use [Bug Report or Feature Request](https://github.com/funk80/Butim/issues/new/choose) for errors and suggestions. English and Korean are welcome. Public issues and attachments must not contain personal notes, credentials, or confidential company information. For suspected vulnerabilities, follow [SECURITY.md](SECURITY.md) instead of posting sensitive details publicly.
 
 ## License
 
